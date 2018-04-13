@@ -1,0 +1,24 @@
+.moments>span {
+  padding-top: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.moments {
+  float: left;
+  font-size: 15px;
+  min-height: 25px;
+  line-height: 25px;
+  max-height: 10000px;
+  /* max-width: 70%; */
+  display: flex;
+  /* margin-right: 23%; */
+  background-color: rgba(199, 199, 199, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #1b1a1a;
+}
+
+.noChange {
+  color: #dedede;
+}

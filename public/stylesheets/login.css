@@ -1,0 +1,24 @@
+.btn-self {
+  color: #FFFFFF;
+  background-color: #4F4F4F;
+  border-color: #4F4F4F;
+}
+
+.panel-heading-self {
+  background-color: #4F4F4F !important;
+  color: #FFFFFF !important;
+}
+
+.panel-self {
+  border: solid 2px !important;
+  border-color: #4F4F4F !important;
+  border-radius: 8px;
+}
+
+.label-self {
+  color: #4F4F4F !important;
+}
+
+.error{
+	color:#ff0000;
+}

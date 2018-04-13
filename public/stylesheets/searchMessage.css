@@ -1,0 +1,136 @@
+.search-msg-box {
+  margin-top: 1%;
+  margin-left: 0px;
+  border-radius: 5px;
+  /* color: #F0F0F0; */
+  margin-bottom: 5%;
+  border-bottom: 2px solid #F0F0F0;
+}
+
+.search-msg-input{
+  width: 70% !important;
+  border: 1px solid #eeeeee;
+  display: inline;
+  float: left;
+  margin-left: 4.5%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-right: 0px solid #78b3bd;
+}
+.search-msg-button{
+  width: 10.5% !important;
+  height: 34px !important;
+  background-color: #78b3bd !important;
+  border: 0;
+  color: #F0F0F0;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0px;
+  display: inline;
+  margin-right: 0%;
+  border-radius: 0;
+  /* border-bottom-left-radius: 0; */
+  float: left;
+}
+
+.search-msg-collapse{
+  width: 10.5% !important;
+  height: 34px !important;
+  background-color: #dc4949 !important;
+  border: 0;
+  color: #F0F0F0;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0px;
+  display: inline;
+  margin-right: 4.5%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.search-msg-name {
+  float: left;
+  font-size: 15px;
+  margin-top: 0px;
+  line-height: 30px;
+  height: 30px;
+  font-weight: bold;
+  color: #333131;
+}
+
+.search-msg-time {
+  float: right;
+  font-size: 11px;
+  margin-top: 0px;
+  line-height: 30px;
+  height: 30px;
+  padding: 2px 0px;
+  color: #333131;
+}
+
+.search-msg-message {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  min-height: 10px;
+  line-height: 23px;
+  padding: 0px;
+  color: #1b1a1a;
+  max-height: 10000px;
+  padding-left: 20px;
+}
+
+.search-msg-content {
+  width: 100%;
+  flex-shrink: 1;
+  margin: 10px 0px;
+  margin-top: 10px;
+  width: 100%;
+  /* margin: 15px; */
+  /* display: flex; */
+  /* border: solid 2px #d0d0d0; */
+  border-radius: 5px;
+  font-size: 14px;
+  min-height: 10px;
+  line-height: 23px;
+  padding: 0px 15px;
+  color: #1b1a1a;
+  max-height: 10000px;
+  overflow-y: auto;
+}
+
+.search-msg-list {
+  width: 100%;
+  min-height: 50px;
+  max-height: 10000px;
+  flex-shrink: 1;
+  overflow-y: auto;
+  background-color: white;
+  /* margin: 0px 15px; */
+  border-radius: 5px;
+  padding: 0px 15px;
+}
+
+.opensearchBtn {
+  color: #4f4f4f;
+  line-height: 18px;
+  height: 18px;
+  font-size: 18px;
+  border: 0px;
+  padding: 0px 23px 0px 17px !important;
+  background-color: #ffffff;
+  margin-top: 10px;
+  float: right;
+}
+
+.more {
+  color: #4f4f4f;
+  background-color: #ffffff;
+  border: 0;
+  margin-left: 6%;
+}
+
+.noresult {
+  padding: 12px 17px;
+  color: #dedede;
+}

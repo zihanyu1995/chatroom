@@ -1,0 +1,8 @@
+{
+  "user": "postgres",
+  "database": "esn",
+  "password": "95263yzh",
+  "port": 5432,
+  "max": 20,
+  "idleTimeoutMillis": 3000
+}

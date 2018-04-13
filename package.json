@@ -1,0 +1,46 @@
+{
+  "name": "esn",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "grunt test",
+    "coverage": "grunt coverage",
+    "debug": "nodemon ./bin/www  --inspect-brk",
+    "develop": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "ajax": "0.0.4",
+    "body-parser": "^1.17.2",
+    "bootstrap-select": "^1.12.4",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.9",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "morgan": "^1.8.2",
+    "pg": "^7.3.0",
+    "pg-format": "^1.0.4",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "expect.js": "^0.3.1",
+    "grunt": "0.4.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-env": "^0.4.4",
+    "grunt-mocha-istanbul": "^3.0.1",
+    "grunt-mocha-test": "^0.12.7",
+    "istanbul": "^0.4.5",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^2.3.3",
+    "mocha-junit-reporter": "^1.8.0",
+    "nodemon": "^1.12.1",
+    "rimraf": "^2.6.2",
+    "superagent": "^1.4.0",
+    "underscore.string": "^3.3.4"
+  }
+}

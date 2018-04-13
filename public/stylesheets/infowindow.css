@@ -1,0 +1,38 @@
+#info-title {
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+}
+
+#info-post-user {
+  float: left;
+  display: inline;
+  font-size: 10px;
+  margin-bottom: 3% !important;
+}
+
+#info-post-role {
+  float: left;
+  display: inline;
+  margin-bottom: 3% !important;
+}
+
+#info-post-time {
+  float: left;
+  display: inline;
+  font-size: 10px;
+  color: grey;
+  font-style: italic;
+  margin-bottom: 3% !important;
+}
+
+#info-post-content {
+  font-size: 10px;
+  margin-bottom: 3% !important;
+}
+
+#info-post-avatime {
+  float: left;
+  display: inline;
+  font-size: 10px;
+  margin-bottom: 3% !important;
+}

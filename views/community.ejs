@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Community Home</title>
+  <%- include("./header.ejs") %>
+
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/community.css">
+  <link rel="stylesheet" href="/stylesheets/announcement.css">
+  <link rel="stylesheet" href="/stylesheets/post.css">
+  <link rel="stylesheet" href="/stylesheets/searchMessage.css">
+  <link rel="stylesheet" href="/stylesheets/location.css">
+  <link rel="stylesheet" href="/stylesheets/infowindow.css">
+  <link rel="stylesheet" href="/stylesheets/messageBox.css">
+  <link rel="stylesheet" href="/stylesheets/administerProfile.css">
+</head>
+<body>
+  <div id="votePannel" class="overlay" value="-1">
+    <a class="closebtn" onclick="closeOverlay()">&times;</a>
+    <div class="overlay-content">
+      <a id="votePanelString"> </a>
+      <a><span class="glyphicon glyphicon-thumbs-up"></span></a>
+      <a id="votePanelNumber"> </a>
+      <a><span class="glyphicon glyphicon-thumbs-down"></span></a>
+    </div>
+  </div>
+  <!-- Welcome Modal -->
+  <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h3 class="modal-title">Welcome to ESN !</h3>
+        </div>
+        <div class="modal-body">
+          <h4>This is an introduction of Status Icon in ESN.</h4>
+          <br/>
+          <div>
+            <span class="glyphicon glyphicon-ok-circle" style="color: rgb(46,139,87);"></span>
+            Means "I am OK, I do not need help."
+            <br/>
+            <br/>
+            <span class="glyphicon glyphicon-exclamation-sign" style="color: rgb(255,215,0);"></span>
+            Means "I need help, but this is not a life threatening emergency."
+            <br/>
+            <br/>
+            <span class="glyphicon glyphicon-plus" style="color: rgb(255,0,0);"></span>
+            Means "I need help now, as this is a life threatening emergency!"
+            <br/>
+            <br/>
+            <span class="glyphicon glyphicon-question-sign" style="color: rgb(0,0,0);"></span>
+            Means "The user has not been providing his/her status yet."
+            <br/>
+            <br/>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">I Understand</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Welcome Modal end -->
+
+  <div class="container-fluid" id="window">
+    <div class="row clearfix">
+      <div class="col-md-12 column">
+        <!-- Top Navigation -->
+        <nav class="navbar navbar-self navbar-static-top" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header navbar-header-self">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="hidden" id="unread-indicator"></span>
+                <span class="glyphicon glyphicon-bell" id="notification"></span>
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+              </button>
+              <a class="navbar-brand" href="#">ESN - Welcome <%= userName %></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active navli"><a id="home">Home</a></li>
+                <li class="navli"><a id="chat">Public Chatroom</a></li>
+                <li class="navli"><a id="post">Help Forum</a></li>
+                <li class="dropdown navli">
+                  <a class="dropdown-toggle" data-toggle="dropdown" id="privateDropdown">Private Chatroom
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu alignDW" id="privateChatList">
+                  </ul>
+                </li>
+                <li class="dropdown navli">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="status">
+                  Change Status <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu alignDW" id="statusMenu">
+                  </ul>
+                </li>
+                <li class="navli"><a id="announcement">Announcement</a></li>
+                <li class="navli"><a id="location">Post Location</a></li>
+                <li class="navli"><a id="messagebox">Friend Status</a></li>
+                <li class="navli" hidden><a id="profile">Administer Profile</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" id="logout"><span class="glyphicon glyphicon-log-out"></span> Log out</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Top Navigation end -->
+
+        <div class="row clearfix">
+          <!-- Content -->
+          <div class="col-md-12 column" id="chatroom">
+            <div id="request">
+            </div>
+            <div id="content">
+            </div>
+          </div>
+          <!-- Content end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%- include("./foot.ejs") %>
+  <script src="/static/ejs.min.js"></script>
+  <script src="/javascripts/community.js"></script>
+  <script src="/javascripts/logout.js"></script>
+  <script src="/static/socket.io.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js">
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAa4wVjN45PrhtQcVJl2lHxq3bqi6lp6sI&callback=initMap"
+          type="text/javascript"></script>
+</body>
+</html>

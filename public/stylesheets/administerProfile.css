@@ -1,0 +1,32 @@
+.profileForm {
+  color: #4f4f4f !important;
+  margin: 10px 15px;
+}
+
+.save-profile-btn {
+  width: 48.5% !important;
+  margin-right: 1.5% !important;
+  margin-bottom: 15px !important;
+  display: inline;
+  float: left;
+}
+
+.cancel-profile-btn {
+    width: 48.5% !important;
+    margin-left: 1.5% !important;
+    margin-bottom: 15px !important;
+    display: inline;
+    float: left;
+}
+
+.puser {
+  margin-left: 1px !important;
+}
+
+.puser>a {
+  padding: 10px 25px 10px 15px !important;
+}
+
+.pro-userList {
+  margin-top: 15px;
+}

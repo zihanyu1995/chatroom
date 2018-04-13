@@ -1,0 +1,65 @@
+.location-title {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.location-input {
+  display: inline;
+  border: 1px solid #d0d0d0 !important;
+  margin-bottom: 15px !important;
+}
+
+.location-textarea {
+  margin-bottom: 15px !important;
+}
+
+.location-picker {
+  margin-bottom: 15px !important;
+}
+
+.starttime-input {
+  width: 70% !important;
+  border: 1px solid #d0d0d0 !important;
+  margin-bottom: 15px !important;
+}
+
+.endtime-input {
+  width: 70% !important;
+  border: 1px solid #d0d0d0 !important;
+  margin-bottom: 15px !important;
+}
+
+.btn-self {
+  color: #FFFFFF;
+  background-color: #4F4F4F;
+  border-color: #4F4F4F;
+}
+
+.post-location-btn {
+  width: 48.5% !important;
+  margin-right: 1.5% !important;
+  margin-bottom: 15px !important;
+  display: inline;
+  float: left;
+}
+
+.cancel-location-btn {
+  width: 48.5% !important;
+  margin-left: 1.5% !important;
+  margin-bottom: 15px !important;
+  display: inline;
+  float: left;
+}
+
+#map_container {
+  height: 400px !important;
+  width: 100% !important;
+  margin-bottom: 15px !important;
+  background-color: grey;
+}
+
+.location-radio {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: lighter;
+}

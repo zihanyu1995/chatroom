@@ -1,0 +1,82 @@
+body {
+  font: 17px "Lucida Grande", Helvetica, Arial, sans-serif, FontAwesome;
+}
+
+.menu-self {
+  padding: 0px !important;
+  margin-top: 15px !important;
+  margin-right: 15px !important;
+}
+
+.navbar-self {
+  border-color: #e7e7e7;
+  margin-bottom: 0px;
+}
+
+.navbar-header-self {
+  border-bottom: 1px !important;
+  border-bottom-color: black;
+}
+
+.navbar-header-self>a{
+  font-size: 20px !important;
+}
+
+.users li {
+  margin-left: 18px;
+}
+
+.navs li.active a {
+  background-color: #4F4F4F !important;
+  color: #FFFFFF !important;
+}
+
+.navs li.active a:hover{
+  color: #FFFFFF !important;
+}
+
+.navs li a:hover {
+  color: #4F4F4F !important;
+}
+
+.myhr {
+  margin-bottom: 10px !important;
+}
+
+.navbar-nav li.active>a{
+  background-color: #4F4F4F !important;
+  opacity: 0.9;
+  color: #FFFFFF !important;
+}
+
+li {
+  color: #4F4F4F;
+}
+
+a {
+  color: #4F4F4F;
+}
+
+.alignDW {
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.alignDW li>a {
+  line-height: 30px !important;
+  height: 40px;
+  font-size: 16px;
+  position: relative;
+  display: block;
+}
+
+.alignDW li>span {
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.glyphicon-remove-circle {
+  font-size: 20px;
+  line-height: 29px;
+}
