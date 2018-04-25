@@ -30,4 +30,4 @@ Our project is an online chating system with following functions:
 People who want to meet strangers on the Internet.
 
 ## Technology
-Node.js, Express, MongoDB, AngularJS, Bootstrap, CSS, HTML5, JavaScript, Heroku, Selenium, Postman
+Node.js, Express, MongoDB, JQuery, Ajax, Bootstrap, CSS, HTML5, JavaScript, Heroku, Selenium, Postman
